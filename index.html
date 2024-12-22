@@ -4,75 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GRGRGRG</title>
-  <meta property="og:image" content="https://example.com/new-image.jpg">
 </head>
 <body>
-    <div id="" class="obj">
-      <div id="cadr" class="cadr">
-        <img src="toppng.com-free-png-middle-finger-png-images-transparent-middle-finger-480x653.png" alt="">
+  <div class="contunar">
+      <video id="vid">
+        <source src="oooo.mp4" type="video/mp4">
+      </video>
+      <div class="controls">
+        <button  id="play">Play</button>
+        <button onclick="pause()">Pause</button>
+        <button onclick="rest()">Restart</button>
       </div>
-      <button id="but" class="but">click</button>
     </div>
-
-
+    <div class="cont">
+      <form action="">
+        <P class="p1">اكتب عمرك</P>
+        <input type="text" id="inp">
+        <button id="button" type="button">اضغطني</button>
+        
+      </form>
+      <p id="tru" class="tru"></p>
+    </div>
     <style>
       *{
         margin: 0;
         padding: 0;
       }
-      body{
-        background-color: rgb(19, 19, 19);
-      }
-      .obj{
-        width: 100%;
-        height: 100vh;
+      .contunar{
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         position: relative;
-
+        background-color: aqua;
       }
-      .cadr{
-        
-        display: none;
+      
+      .controls{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 100PX;
+        margin: 40px;
+      }
+      video{
+        width: 500px;
+      }
+      .cont{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        
-        position: absolute;
-        
-        color: aliceblue;
-        
+        gap: 30PX;
+        padding: 20px 0px;
       }
-      img{
-        width: 300px;
+      
+      .p1{
+        margin: 0px 0px 20px 0px;
+        font-size: 30px;
+        font-weight: 900;
       }
-      .af{
-        animation: af 0.5s ease forwards;
-        
+      .tru{
+        font-size: 30px;
+        font-weight: 900;
       }
-      .afo{
-        animation: afo 0.5s ease forwards ;
-        
-      }
-      @keyframes af {
-        0%{
-          opacity: 0;
+      
+      
 
-        }
-        100%{
-          opacity: 1;
-        }
-      }
-      @keyframes afo{
-        0%{
-          opacity: 1;
 
-        }
-        100%{
-          opacity: 0;
-        }
-      }
     </style>
   <script src="uu.js"></script>
 </body>
